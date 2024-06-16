@@ -1,0 +1,23 @@
+/* src/components/Header/Header.module.css */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 20px;
+  }
+}
