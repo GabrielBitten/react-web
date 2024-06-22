@@ -5,3 +5,28 @@
     gap: 20px;
     padding: 20px;
 }
+
+
+.main > section {
+    padding: 20px;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main > section h2 {
+    margin-bottom: 8px;
+}
+
+.main > section p {
+    margin-bottom: 16px;
+}
+
+.main > section ul li {
+    list-style-position: inside;
+}
+

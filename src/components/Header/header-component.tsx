@@ -5,5 +5,9 @@ interface HeaderProp{
 }
 
 export default function Header(props: HeaderProp) {
-  return (<header className={header.header}><h1 className={header.title}>{props.title}</h1></header>)
+  return (
+  <header className={header.header}>
+    <h1 className={header.title}>{props.title}
+      </h1>
+      </header>)
 }
